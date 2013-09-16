@@ -6,7 +6,7 @@ body {
 	font-family: 'Cinzel Decorative', cursive, serif;
 	font-size: 1em;
 	background: #F09048 url('../img/background.jpg') no-repeat bottom center fixed;
-	width: auto;
+	width: 100%;
 	margin-left: 10%;
 }
 
@@ -37,7 +37,7 @@ section.main {
 	-moz-box-shadow: 5px 5px 5px #000;
 	background: #FFEACF;
 	opacity: .8;
-	width: auto;
+	width: 90%;
 }
 
 header {
