@@ -1,13 +1,10 @@
 <html lang="en">
 <head>
-	<title> <?php echo $pageTitle; ?> </title>
+	<title>Jordan Paul's webpage</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<?php 
-	$pageTitle = "Jordan Paul's webpage";
-	?>
 	<div class="container">
 			<header>
 				<hgroup>
