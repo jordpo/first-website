@@ -3,7 +3,7 @@
 }
 
 body {
-	font-family: 'Cinzel Decorative', cursive, serif;
+	font-family: 'Indie Flower', cursive;
 	font-size: 1em;
 	background: #F09048 url('../img/background.jpg') no-repeat center center fixed;
 	width: 100%;
@@ -50,24 +50,25 @@ header {
 	text-align: center;
 }
 
-article {
-	padding: 10px;
-	margin: 10px;
-}
-
-h1 {
-	text-shadow: 2px 2px 2px #FFF;
-	font-size: 2em;
-}
-
-h2 {
-	font-size: 1.2em;
-	text-transform: lowercase;
+.main_header h1, .main_header h2 {
 	background: #FFEACF;
 	opacity: .8;
 	margin-left: -5%;
 	border-radius: 5px;
 	border: 1px solid;
+	margin: 2%;
+}
+
+h1 {
+	text-shadow: 2px 2px 2px #FFF;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.2em;
+	text-transform: capitalize;
+	margin-top: -2%;
 }
 
 .image {
@@ -91,7 +92,7 @@ footer {
 }
 
 p {
-	margin: 10px;
+	margin: 20px;
 	padding: 10px;
 	vertical-align: center;
 }
@@ -100,4 +101,6 @@ aside {
 	font-weight: bold;
 	font-size: .8em;
 	text-align: center;
+	font-style: italic;
+	margin-top: -25px;
 }

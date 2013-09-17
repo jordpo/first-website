@@ -1,13 +1,13 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Jordan Paul's webpage</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div class="container">
-			<header>
-				<hgroup>
+			<header class="main_header">
 				<h1>A complete biography of Jordan Paul Morano</h1>
 				<h2>Venture further to find all of the interesting details.</h2>
 				<nav>
@@ -24,7 +24,7 @@
 						<h1>His Roots</h1>
 					</header>
 					<div class="image">
-						<img src="img/min_me.jpg" id="me">
+						<img src="img/min_me.jpg" id="me" alt="Jordan Morano picture">
 					</div>
 					<p>Jordan Morano was born in Bayshore, Long Island, New York, as the second son of his mom and dad. He has a 
 						total of 8 siblings, which includes 2 full sisters, 2 half-sisters, 2 half-brothers, and 2 step. He moved a total of 16 
@@ -32,7 +32,7 @@
 						he would go to Fire Island, NY, where his family has an Italian seafood restaurant. His favorite dish, growing
 						up, was shrimp parmesan. And it still is!</p>
 						<aside>
-							<p>His passionas are running, reading, writing, and swimming. He is also learning crossfit.</p>
+							<p>His passions are running, reading, writing, and swimming. He is also learning crossfit.</p>
 						</aside>
 				</article>
 				<article>
@@ -40,7 +40,7 @@
 						<h1>Educational Background</h1>
 					</header>
 					<div class="image">
-						<img src="http://huskyraze.webs.com/uconn_logo.jpg" id="school"> 
+						<img src="http://huskyraze.webs.com/uconn_logo.jpg" id="school" alt="UCONN Husky"> 
 					</div> <!-- use an image of UCONN's logo-->
 					<p>He studied at a private school before heading to the University of Connecticut's School of Business. 
 						There he studied Finance and studied abroad in Grenoble, France. He chose Finance because of his enjoyment
@@ -56,28 +56,26 @@
 				</article>
 				<article>
 					<header>
-						<hgroup>
 							<h1>Professional Experience</h1>
 							<h2>Food business, Entrepreneurship, Operations Analyst</h2>
-						</hgroup>
 					</header>
-					<p>After school, I moved to New York City and worked as the third member of a small team in charge of managing
-						accounts and trades for funds with total assets under management of $6 billion. I worked there for 3 years
-						before moving to Paris, France to work at a French hedge fund that used computer algorithm to direct
-						trades. I worked in the operations there and spoke both French and English during meetings and throughout
-						the day. I also drank a ton of espresso. I left after a year because I wasn't happy with what I did. I 
-						took some MBA classes at the Sorbonne, staying in Paris for an extra year. I returned in 2010 to start
-						my own food business (Italian gelato) with my younger sister in our home town. I did that for a year, then
-						moved to Boston to work in the financial operations of a clean tech company. I finally made the move
-						to focus on the career path of my passion this past Spring: technology and coding!</p>
+					<p>After school, he moved to New York City and worked as the third member of a small team in charge of managing
+						accounts and trades for funds with total assets under management of $6 billion. He worked there for 3 years
+						before moving to Paris, France to work at a French hedge fund that used computer algorithms to direct
+						trades. He worked in the operations there and spoke both French and English during meetings and throughout
+						the day. He also drank a ton of espresso. He left after a year because he wasn't happy with what he did. He 
+						took some MBA classes at the Sorbonne, staying in Paris for an extra year. He returned in 2010 to start
+						his own food business (Italian gelato) with his younger sister in his home town. He did that for a year, then
+						moved to Boston to work in the financial operations of a clean tech company. He finally made the move
+						to focus on the career path of his passion this past Spring: technology and coding!</p>
 					<aside>
-						<p>Each job experience had its merits. I am happy to have had the experiences that I have had.</p>
+						<p>Each job experience had its merits. He is happy to have had the experiences that he has had.</p>
 					</aside>
 				</article>
 			</section>
 			<footer>
 				<h3>Thanks for Listening!</h3>
-				<p>&copy; <?php echo date("Y"); ?> Jordan Paul Design</p>
+				<p>&copy;2013 Jordan Paul Design</p>
 			</footer>
 	</div>
 </body>
