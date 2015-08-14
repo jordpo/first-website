@@ -1,4 +1,3 @@
-p1.jordanmorano.biz
-===================
+First website published - written in PHP
 
-Project 1 for DWA 15
+Part of my Harvard web development class Fall 2013. 
